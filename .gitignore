@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+# C extensions
+*.so
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Django-specific
+*.log
+*.pot
+# Local database file
+db.sqlite3
+# Sensitive settings file (if used)
+local_settings.py
+# Media and static file directories (these are generated or for local use)
+media/
+static/
+
+# IDE specific files
+.idea/  # For PyCharm
+.vscode/ # For VS Code
+*.swp   # Vim swap files
+*.sublime-workspace # Sublime Text workspace files
+.DS_Store # macOS specific files
+
+# Testing and coverage
+.coverage
+htmlcov/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
